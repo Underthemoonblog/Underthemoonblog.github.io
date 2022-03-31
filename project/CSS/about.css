@@ -1,0 +1,159 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+img {
+    border: 1px solid rgb(252, 250, 250);
+    border-radius: 1%;
+    padding: 20;
+    justify-items: right;
+  }
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+  /*Start of Form */
+  @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+  body { background:black; }
+  form { max-width:420px; margin:50px auto; }
+  
+  .feedback-input {
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: black;
+    border:2px solid gray;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+    margin-top: 15px;
+  }
+  
+  .feedback-input:focus { border:1px solid white; }
+  
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+  }
+  
+  [type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:gray;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+  [type="submit"]:hover { background:grey; }
+  /* End of Form */
+
+  /* Start of Footer */
+  .footer-content {
+  text-align: center;
+  background-color: black; (237, 215, 215);
+  font-size: 16px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer-bottom {
+  text-align: center;
+  background-color: black;
+  font-size: 16px;
+  padding-bottom: 15px;
+  color: grey;
+}
+
+.social-icons {
+  padding: 0px
+}
+.footer-content p {
+  text-align: center;
+}
+.footer-content h3 {
+font-family: 'Dancing Script', cursive;
+font-size: 26px;
+color: black;
+}
+
+.footer-content h3:hover {
+  color: white;
+}
+
+.fa {
+  padding: 5px;
+  width: 31px;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    transform: scale(1.5);
+}
+
+
+.fa-twitter {
+  color: #55ACEE;
+}
+
+.fa-github {
+  color: white;
+}
+
+.fa-linkedin {
+  color: #007bb5;
+}
+
+.fa-youtube {
+  color: #bb0000;
+}
+
+.fa-instagram {
+  color: orange;
+}
+
+
+.footer-info {
+padding: 0;
+margin: 0;
+}
+
+.technigo a {
+  text-decoration: none;
+  color: orange;
+}
+
+.technigo a:hover {
+  color: blue;
+} 
+  /* End of Footer */
+
